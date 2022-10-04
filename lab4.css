@@ -1,0 +1,57 @@
+body {
+ background-color: grey;
+margin: 10px;
+padding: 20px;
+font-family: cursive;
+color: white;
+border-style: solid;
+}
+
+h1 {
+color: blue;
+text-align: center;
+}
+
+.photo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 50%;
+}
+
+.active {
+color: yellow;
+font-size: 18pt;
+}
+
+#heading {
+color: yellow;
+}
+
+.names {
+text-align: center;
+color: blue;
+font-size: 18pt;
+}
+
+.deadline {
+font-weight: bolder;
+}
+
+body {
+  background-color: tan;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
